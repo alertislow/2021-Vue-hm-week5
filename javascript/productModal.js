@@ -28,7 +28,7 @@ export default {
                         v-model.number="qty" min="1">
                   <button type="button" class="btn btn-primary"
                   @click="$emit('add-cart', tempProduct.id, qty)"
-                          >加入購物車</button>
+                  data-bs-dismiss="modal" aria-label="Close">加入購物車</button>
                 </div>
               </div>
             </div>
